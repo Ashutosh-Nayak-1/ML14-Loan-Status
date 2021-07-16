@@ -20,8 +20,8 @@ model.fit(x_train, y_train)
 pred = model.predict(x_test)
 
 
-print(classification_report(y_test, pred))
-print('===================================')
-print(confusion_matrix(y_test, pred))
+#print(classification_report(y_test, pred))
+#print('===================================')
+#print(confusion_matrix(y_test, pred))
 
 
